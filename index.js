@@ -1,0 +1,6 @@
+const find_missing_numbers = require('./src/find_missing_numbers')
+console.log(find_missing_numbers([4,3,2,7,8,2,3,1]))
+console.log(find_missing_numbers([1,1]))
+console.log(find_missing_numbers([-1]))
+console.log(find_missing_numbers(null))
+console.log(find_missing_numbers(['a', 'b', 'c', 'd']))
